@@ -79,7 +79,7 @@ neyzk..":VERSION",GetVerisonNeyzk,
 neyzk..":SUDO_ID:",SUDO_USER,
 neyzk..":DataCenter:",'Amsterdam',
 neyzk..":UserNameBot:",BOT_User,
-neyzk..":ApiSource",'https://th3nezk.aba.vg',
+neyzk..":ApiSource",'http://th3nezk.aba.vg/',
 neyzk..":NameBot:","نيزك",
 "TH3NEYZK_INSTALL","Yes"
 )
@@ -209,7 +209,7 @@ Start_Bot()
 function CheckBotA(msg)
 W = msg.sender_user_id_
 if not redis:get(neyzk..":Check_Bot:"..W) then
-Rgz,res=https.request(ApiNeyzk..Tkml..W)
+Rgz,res=http.request(ApiNeyzk..Tkml..W)
 if res == 200 and Rgz == "SendMsg" then redis:setex(neyzk..":Check_Bot:"..W,1800,true) return false else return Rgz end 
 end 
 end
