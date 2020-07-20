@@ -3532,9 +3532,9 @@ return [[
 
  ⇓⇓⇓ 
 
- ``sudo rm -fr ~/NEYZK ; screen -X -S neyzk quit ; git clone https://github.com/THTSS/NEYZK.git ;cd NEYZK;chmod +x ins;./ins``
+ ```sudo rm -fr ~/NEYZK ; screen -X -S neyzk quit ; git clone https://github.com/THTSS/NEYZK.git ;cd NEYZK;chmod +x ins;./ins```
 
-./NEYZK/run
+`./NEYZK/run`
 
 » فقط أضغط على الكود ☝️ ليتم النسخ 
 » ثم الصقه بالترمنال وانتر تتنظر يتنصب 
