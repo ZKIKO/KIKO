@@ -27,6 +27,7 @@ return modadd(msg)
 end
  
 
+
 if MsgText[1] == "تعطيل" and not MsgText[2] then
 if not msg.SudoUser then return '🛠*¦* أنـت لـسـت الـمـطـور ⚙️'end
 if not redis:get(neyzk..'group:add'..msg.chat_id_) then return '🛠*¦* المجموعه بالتأكيد ✓️ تم تعطيلها' end  
