@@ -9,22 +9,24 @@
 #┊@AAH_MD ‿ @TH3SS
 #---------------------------------------------------------------------
 ]]
-local function iBoss(msg,MsgText)
+local function iNeyzk(msg,MsgText)
+
 
 if msg.forward_info_ then return false end
 
 
 if msg.Director 
-and (redis:get(boss..":Witting_changeamr:"..msg.chat_id_..msg.sender_user_id_) 
-or redis:get(boss..":Witting_changeamr2:"..msg.chat_id_..msg.sender_user_id_) 
-or redis:get(boss..":Witting_AmrDel:"..msg.chat_id_..msg.sender_user_id_) 
-or redis:get(boss..":firstAmrOld:"..msg.chat_id_..msg.sender_user_id_)) and MsgText[1] ~= "الغاء" then 
+and (redis:get(neyzk..":Witting_changeamr:"..msg.chat_id_..msg.sender_user_id_) 
+or redis:get(neyzk..":Witting_changeamr2:"..msg.chat_id_..msg.sender_user_id_) 
+or redis:get(neyzk..":Witting_AmrDel:"..msg.chat_id_..msg.sender_user_id_) 
+or redis:get(neyzk..":firstAmrOld:"..msg.chat_id_..msg.sender_user_id_)) and MsgText[1] ~= "الغاء" then 
 return false end 
 
 if msg.type ~= 'pv' then if MsgText[1] == "تفعيل" and not MsgText[2] then
 return modadd(msg)  
 end
  
+
 
 if MsgText[1] == "تعطيل" and not MsgText[2] then
 if not msg.SudoUser then return '🛠*¦* أنـت لـسـت الـمـطـور ⚙️'end
