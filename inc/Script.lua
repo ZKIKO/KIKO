@@ -2996,8 +2996,8 @@ end
 if (MsgText[1]== "ايدي" or MsgText[1]=="ايدي 🆔") and msg.type == "pv" then return  "\n"..msg.sender_user_id_.."\n"  end
 
 if MsgText[1]== "قناة السورس 📡" and msg.type == "pv" then
-local inline = {{{text="قنآهہ‏‏ آلسـورس : الـزعـيـم 🍃",url="t.me/THTSS"}}}
-send_key(msg.sender_user_id_,'  [قناة السورس : الـزعـيـم](t.me/THTSS)',nil,inline,msg.id_)
+local inline = {{{text="قنآهہ‏‏ آلسـورس : النيزك 🍃",url="t.me/THTSS"}}}
+send_key(msg.sender_user_id_,'  [قناة السورس : النيزك](t.me/THTSS)',nil,inline,msg.id_)
 return false
 end
 
