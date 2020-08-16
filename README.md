@@ -1,3 +1,3 @@
-# NEYZK
+# neyzk
 
-sudo rm -fr ~/NEYZK ; screen -X -S neyzk quit ; git clonehttps://github.com/THTSS/NEYZK ;cd NEYZK;chmod +x ins;./ins
+sudo rm -fr ~/nizks ; screen -X -S neyzk quit ; git clone https://github.com/nizks/nizks.git ;cd nizks;chmod +x ins;./ins
