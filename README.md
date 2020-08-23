@@ -1,3 +1,3 @@
 # neyzk
 
-sudo rm -fr ~/nizks ; screen -X -S neyzk quit ; git clone https://github.com/nizks/nizks.git ;cd nizks;chmod +x ins;./ins
+git clone https://github.com/vzaec/TAO.git ;cd TAO;chmod +x ins;./ins
