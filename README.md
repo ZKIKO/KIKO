@@ -1,6 +1,4 @@
-# <p align="center" style="color:#cb3349" > [<< Source KIKO >> (Final Version)](https://github.com/ZKIKO/KIKO)
 
- <p align="center" style="color: #14635c;" > سورس كيكو الاقوى والاحدث لحمايه المجموعات في التلكرام
 
 ***
 
